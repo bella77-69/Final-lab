@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/styles-custom.css">
+    <link rel="stylesheet" href="../css/styles-nav.css">
+    <link rel="stylesheet" href="../css/breakpoint.css">
+
+    <title>RoadRunner Rentals</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-full">
+        <div class="brand-wrapper">
+            <img src="../assets/logo/logo-header.png" alt="RoadRunner Rentals logo" class="navbar-brand" width="200"
+                height="175">
+
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
+                &#9776;
+            </button>
+        </div><!--brand-wrapper-->
+        <div class="collapse navbar-toggleable-xs" id="menu">
+            <ul class="nav nav-responsive">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./listings.html">Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./reservation.html">Reservation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">More</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-header"></div>
+                        <a class="dropdown-item" href="./faq.html">FAQ</a>
+                        <a class="dropdown-item" href="./contact.html">Contact Us
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div><!--collapse-->
+
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href='../index.html'>Home</a></li>
+            <li class="breadcrumb-item"><a href='./listings.html'>Listings</a></li>
+            <li class="breadcrumb-item active">Reservation</li>
+        </ol>
+    </nav><!--breadcrumb -->
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="col-md-12 text-center">
+                <img src="../assets/images/hero3.png" alt="RoadRunner hero image" class="img-fluid">
+            </div><!--col -->
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-10 col-lg-offset-0">
+                    <br>
+                    <h1 class="h1 text-xs-center">Reserve Your Ride with RoadRunner Rentals</h1>
+                    <p class="lead">Get ready to embark on your next adventure with RoadRunner Rentals. Choose from our
+                        diverse selection of well-maintained vehicles, perfect for any trip. Whether you're planning a
+                        weekend getaway or a cross-country road trip, we have the ideal ride for you.</p>
+
+                </div><!--col -->
+            </div><!--row -->
+        </div><!--jumbotron -->
+
+        <div class="row">
+            <div class="col-xs-12  col-lg-10 col-lg-12 col-xl-14">
+                <div class="col-sm-push-1 col-md-10 col-md-push-2 col-lg-6 col-lg-push-0">
+                    <form>
+                        <div class="form-group row">
+                            <h3>Make a Reservation</h3>
+                            <br>
+                            <div class="col-sm-10">
+                                <img src="../assets/images/car5.png" alt="car image" width="400" height="350"
+                                    class="img-fluid">
+                                <br>
+                                <small class="text-muted">Select your
+                                    perferred vehicle</small>
+
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="Economy"
+                                            checked>
+                                        Economy
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="SUV"
+                                            checked> SUV
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios3" value="Luxury"
+                                            checked> Luxury
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios4" value="sport"
+                                            checked>
+                                        Sport
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="optionsRadios" id="optionsRadios5" value="hybrid"
+                                            checked>
+                                        Hybrid
+                                    </label>
+                                </div><!--radio-->
+                            </div><!--col-->
+                        </div><!--form row -->
+
+                        <div class="form-group row">
+                            <label for="pickupDate" class="col-sm-6 col-md-8 form-control-label">Pick-up
+                                Date</label>
+                            <div class="col-sm-8 col-md-9">
+                                <input type="date" class="form-control" id="pickupDate" name="pickupDate" required>
+                            </div><!--col-->
+
+                            <label for="returnDate" class="col-sm-6 col-md-8 form-control-label">Return Date</label>
+
+                            <div class="col-sm-8 col-md-9">
+                                <input type="date" class="form-control" id="returnDate" name="returnDate" required>
+                            </div><!--col-->
+                        </div><!--form row -->
+
+                        <div class="form-group row">
+                            <label class="col-sm-4 form-control-label">Additional Extras</label>
+                            <div class="col-sm-10">
+                                <small class="text-muted">Select any additional extras you would like to
+                                    include:</small>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value>
+                                        GPS
+                                    </label>
+                                </div><!--checkbox-->
+
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value>
+                                        Child Seat
+                                    </label>
+                                </div><!--checkbox-->
+
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value>
+                                        Insurance
+                                    </label>
+                                </div><!--checkbox-->
+                            </div><!--col-->
+                        </div><!--form row-->
+
+                        <div class="form-group row">
+                            <label for="fullName" class="col-sm-6 col-lg-6 form-control-label">Full Name</label>
+                            <div class="col-sm-8 col-md-9 col-lg-8">
+                                <input type="text" class="form-control" id="fullName" name="fullName" required>
+                            </div><!--col-->
+                        </div><!--form row-->
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-6 col-lg-6 form-control-label">Email</label>
+                            <div class="col-sm-8 col-md-9 col-lg-8">
+                                <input type="text" class="form-control" id="email" name="email" required>
+                            </div><!--col-->
+                        </div><!--form row-->
+                        <div class="form-group row">
+                            <label for="phoneNumber" class="col-sm-6 col-lg-6 form-control-label">Phone Number</label>
+                            <div class="col-sm-8 col-md-9 col-lg-8">
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                            </div><!--col-->
+                        </div><!--form row-->
+
+                        <div class="form-group row">
+                            <label class="col-sm-6 form-control-label">Weekly
+                                Newsletter</label>
+                            <div class="col-sm-8">
+                                <small class="text-muted">Select YES if you
+                                    would like to receive our weekly
+                                    newsletter</small>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value> Yes
+                                        please!
+                                    </label>
+                                </div><!--checkbox-->
+                                <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                            </div><!--col-->
+                        </div><!--form row-->
+
+                    </form>
+                </div><!--col-->
+                <div class="col-sm-4 hidden-md-down col-lg-6">
+
+                    <div class="review">
+
+                        <h3>RoadRunner Reservation Reviews</h3>
+                        <br>
+                        <div class="review-item">
+                            <h5>Review 1:</h5>
+                            <p>"I recently rented a car from RoadRunner. The process was smooth and hassle-free from
+                                start to finish..."</p>
+                        </div>
+                        <br>
+                        <div class="review-item">
+                            <h5>Review 2:</h5>
+
+                            <p>"The staff was friendly and professional, and the vehicle I rented was clean and
+                                well-maintained."</p>
+                        </div>
+                        <br>
+                        <div class="review-item">
+                            <h5>Review 3:</h5>
+
+                            <p>"I appreciated the competitive pricing and the convenience of the pickup and return
+                                locations. Overall, I had a great experience and would highly recommend RoadRunner to
+                                anyone in need of reliable transportation."</p>
+                        </div>
+                        <div class="review-item">
+                            <h5>Review 4:</h5>
+
+                            <p>"RoadRunner's car rental web app is a game-changer! From selecting my preferred vehicle
+                                to booking with ease, every step was seamless. "</p>
+                        </div>
+                    </div>
+                    <br>
+                    <img src="../assets/images/storeFront.png" alt="image" class="img-fluid img-rounded" width="400"
+                        height="350">
+                </div>
+
+            </div><!--col-->
+        </div><!--row-->
+
+    </div><!--container-->
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../assets/logo/logo-footer.png" alt="RoadRunner logo" class="img-fluid" width="200"
+                        height="150">
+                    <small>&copy; 2024 RoadRunner Rentals. All rights reserved.</small>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:info@roadrunner.com">info@roadrunner.com</a></p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                    <p>Address: 123 Fast Ave, City, Country</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul class="list">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./listings.html">Listings</a></li>
+                        <li><a href="./reservation.html">Reservation</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

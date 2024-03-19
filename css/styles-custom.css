@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+    background-color: #cdcccc;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    color: #1b1323;
+}
+
+p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* jumptron styles */
+.jumbotron {
+    color: #000000;
+    background-color: transparent;
+    padding: 0;
+}
+
+/* carousel styles */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+/* card styles */
+.card {
+    border: 1px solid #d0cece;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+
+.card-list {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+/* list styles */
+.list-group-item {
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* breadcrumb styles */
+.breadcrumb {
+    background-color: transparent;
+    color: #000000;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    color: #000000;
+    list-style: none;
+}
+
+.breadcrumb-item:hover {
+    color: #9A7ADF;
+    cursor: pointer;
+}
+
+.breadcrumb-item.active {
+    color: #9A7ADF;
+}
+
+.breadcrumb-item a:visited {
+    color: #222222;
+}
+
+/* button styles */
+.btn {
+    background-color: #d2d2d2;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #9A7ADF;
+    color: #ffffff;
+}
+
+/* footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    color: #ffffff;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.list {
+    color: #ffffff;
+    padding: 0;
+}
+
+.list li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.list li a {
+    color: #ffffff;
+}
+
+.list li a:visited {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #fefefe;
+}

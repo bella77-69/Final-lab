@@ -1,0 +1,56 @@
+@media (max-width: 543px) {
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+
+    .list-group-item {
+        padding: 0.5rem;
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 544px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .list-group-item {
+        font-size: .875rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3em;
+    }
+}
